@@ -1,0 +1,10 @@
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\bin\Debug\MysqlConnection.exe.config
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\bin\Debug\MysqlConnection.exe
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\bin\Debug\MysqlConnection.pdb
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\obj\Debug\MysqlConnection.csprojAssemblyReference.cache
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\obj\Debug\MysqlConnection.Form1.resources
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\obj\Debug\MysqlConnection.Properties.Resources.resources
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\obj\Debug\MysqlConnection.csproj.GenerateResource.cache
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\obj\Debug\MysqlConnection.csproj.CoreCompileInputs.cache
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\obj\Debug\MysqlConnection.exe
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\obj\Debug\MysqlConnection.pdb
