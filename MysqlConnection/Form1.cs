@@ -52,7 +52,7 @@ namespace MysqlConnection
                 // Limpa TextBox
                 emptyTextBox();
 
-                MessageBox.Show("Cadastro realizado com sucesso!", "SUCESSO", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                MessageBox.Show("Cadastro realizado com sucesso!");
             }
             catch {
                 // Limpa TextBox
@@ -76,6 +76,7 @@ namespace MysqlConnection
             textBox1.Text = string.Empty;
             textBox2.Text = string.Empty;
             textBox3.Text = string.Empty;
+            textBox1.Focus();
         }
     }
 }
