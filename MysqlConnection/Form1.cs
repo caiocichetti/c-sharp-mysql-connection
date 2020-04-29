@@ -13,6 +13,9 @@ namespace MysqlConnection
 {
     public partial class Form1 : Form
     {
+        //Criando a conexão com o servidor e acessando o banco de dados
+        MySqlConnection connection = new MySqlConnection("server-localhost; user-root; database-dbusers");
+
         public Form1()
         {
             InitializeComponent();
