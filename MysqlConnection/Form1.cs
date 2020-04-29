@@ -52,13 +52,13 @@ namespace MysqlConnection
                 // Limpa TextBox
                 emptyTextBox();
 
-                MessageBox.Show("Cadastro realizado com sucesso!");
+                MessageBox.Show("Cadastro realizado com sucesso!", "SUCESSO", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
             catch {
                 // Limpa TextBox
                 emptyTextBox();
 
-                MessageBox.Show("Não foi possível cadastrar!", "ERRO DE CONEXÂO");
+                MessageBox.Show("Não foi possível cadastrar!", "ERRO DE CONEXÂO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
