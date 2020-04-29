@@ -49,9 +49,15 @@ namespace MysqlConnection
                 // Fechando a conexão
                 connection.Close();
 
+                // Limpa TextBox
+                emptyTextBox();
+
                 MessageBox.Show("Cadastro realizado com sucesso!");
             }
             catch {
+                // Limpa TextBox
+                emptyTextBox();
+
                 MessageBox.Show("Não foi possível cadastrar!", "ERRO DE CONEXÂO");
             }
         }
@@ -63,6 +69,13 @@ namespace MysqlConnection
             DataSet DS = new DataSet();
             mySqlDataAdapter.Fill(DS);
             dataGridView1.DataSource = DS.Tables[0];
+        }
+
+        public void emptyTextBox()
+        {
+            textBox1.Text = string.Empty;
+            textBox2.Text = string.Empty;
+            textBox3.Text = string.Empty;
         }
     }
 }
