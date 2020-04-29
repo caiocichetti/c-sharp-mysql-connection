@@ -14,11 +14,18 @@ namespace MysqlConnection
     public partial class Form1 : Form
     {
         // Criando a conexão com o servidor e acessando o banco de dados
-        MySqlConnection connection = new MySqlConnection("server-localhost; user-root; database-dbusers");
+        MySqlConnection connection = new MySqlConnection("server=localhost; user=root; database=dbusers");
 
         public Form1()
         {
             InitializeComponent();
+
+            // Abrindo a conexão
+            connection.Open();              
+            // Visualizar valores do BD
+            showValuesDb();
+            // Fechando a conexão
+            connection.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -35,11 +42,27 @@ namespace MysqlConnection
                 INSERT.Parameters.AddWithValue("@User", textBox2.Text);
                 INSERT.Parameters.AddWithValue("@Password", textBox3.Text);
                 INSERT.ExecuteNonQuery();
-            } catch { 
 
+                // Visualizar valores do BD
+                showValuesDb();
 
+                // Fechando a conexão
+                connection.Close();
+
+                MessageBox.Show("Cadastro realizado com sucesso!");
             }
+            catch {
+                MessageBox.Show("Não foi possível cadastrar!", "ERRO DE CONEXÂO");
+            }
+        }
 
+        public void showValuesDb()
+        {
+            // Mostrando os valores do BD
+            MySqlDataAdapter mySqlDataAdapter = new MySqlDataAdapter("SELECT * FROM tblusers", connection);
+            DataSet DS = new DataSet();
+            mySqlDataAdapter.Fill(DS);
+            dataGridView1.DataSource = DS.Tables[0];
         }
     }
 }

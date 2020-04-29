@@ -8,3 +8,10 @@ D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\obj\Debug\MysqlCon
 D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\obj\Debug\MysqlConnection.csproj.CoreCompileInputs.cache
 D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\obj\Debug\MysqlConnection.exe
 D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\obj\Debug\MysqlConnection.pdb
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\bin\Debug\MySql.Data.dll
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\bin\Debug\Google.Protobuf.dll
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\bin\Debug\BouncyCastle.Crypto.dll
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\bin\Debug\Ubiety.Dns.Core.dll
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\bin\Debug\Renci.SshNet.dll
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\bin\Debug\MySql.Data.xml
+D:\Documentos\GitHub\c-sharp-mysql-connection\MysqlConnection\obj\Debug\MysqlConnection.csproj.CopyComplete
