@@ -16,6 +16,8 @@ namespace MysqlConnection
         // Criando a conexão com o servidor e acessando o banco de dados
         MySqlConnection connection = new MySqlConnection("server=localhost; user=root; database=dbusers");
 
+        Form2 deleteForm;
+
         public Form1()
         {
             InitializeComponent();
@@ -77,6 +79,13 @@ namespace MysqlConnection
             textBox2.Text = string.Empty;
             textBox3.Text = string.Empty;
             textBox1.Focus();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            deleteForm = new Form2();
+
+            deleteForm.Show();
         }
     }
 }
