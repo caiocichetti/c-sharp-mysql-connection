@@ -53,7 +53,7 @@ namespace MysqlConnection
             }
             catch
             {
-                MessageBox.Show("Não foi possível cadastrar!", "ERRO DE CONEXÂO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Não foi possível deletar!", "ERRO DE CONEXÂO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
         }
